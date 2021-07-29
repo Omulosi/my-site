@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import Card from "react-bootstrap/Card"
 
 export default props => {
+  console.log(props)
   return (
     <Card className="card-container" as={Link} to={props.to}>
       <Card.Img as={Img} fluid={props.featuredImage} className="h-50" />

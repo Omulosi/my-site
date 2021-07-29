@@ -15,10 +15,18 @@ export default ({ data }) => {
   const regex = /\/[blog].*\/|$/
   const featuredImageMap = Utils.getImageMap(allFeaturedImages, regex)
 
+  React.useEffect(() => {
+    const filteredData = allPosts.filter(post => {
+      const { slug } = post.node.fields
+      return slug.includes("blog")
+    })
+    setState({ ...state, filteredData })
+  }, [])
+
   const handleChange = e => {
     const query = e.target.value
 
-    const filteredData = allPosts.filter(post => {
+    const filteredData = state.filteredData.filter(post => {
       // query will run on the following fields
       const { description, title, tags, author } = post.node.frontmatter
       // standardize query
@@ -39,7 +47,7 @@ export default ({ data }) => {
   }
 
   const { filteredData, query } = state
-  const filteredPosts = query !== "" ? filteredData : allPosts
+  // const filteredPosts = query !== "" ? filteredData : allPosts
 
   return (
     <PageLayout>
@@ -59,7 +67,7 @@ export default ({ data }) => {
         fluid
         className="p-3 w-auto text-left d-flex flex-wrap justify-content-center"
       >
-        {filteredPosts.map(({ node }) => (
+        {filteredData.map(({ node }) => (
           <div key={node.id} className="p-3">
             <BlogLink
               to={node.fields.slug}
