@@ -1,3 +1,3 @@
-See me [live!](https://gatsby-starter-portfolio.herokuapp.com/)
+See me [live!]()
 
 ## Personal Blog/Portfolio site
