@@ -56,6 +56,7 @@ export default ({ data }) => {
       <Container className="px-5 mb-5 text-center">
         <Form className="aurebesh blog-filter">
           <FormControl
+            value={query}
             className="bg-none search"
             type="text"
             placeholder="Search"

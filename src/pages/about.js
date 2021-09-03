@@ -22,7 +22,7 @@ export default ({ data }) => {
     designations,
     unemployed,
   } = data.site.siteMetadata
-  const { toString } = useContext(ThemeContext)
+  // const { toString } = useContext(ThemeContext)
 
   const bookLinks = readingList.map(book => MediaLink(book))
   const showLinks = showsList.map(show => MediaLink(show))
