@@ -77,16 +77,6 @@ export default ({ data }) => {
               title="e-mail"
             />
           </a>
-
-          {/**
-              <a href="../../resume.pdf" target="_blank" download>
-                <FontAwesomeIcon
-                  icon={["fas", "file-alt"]}
-                  className="icons file"
-                  title="Resume"
-                />
-              </a>
-          */}
         </div>
       </Container>
     </PageLayout>

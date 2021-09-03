@@ -13,15 +13,7 @@ module.exports = {
     lastName: `Mulongo`,
     description: `John Paul's personal site`,
     occupation: `Software Engineer`,
-    keywords: [
-      `John`,
-      `Mulongo`,
-      `Personal`,
-      `Blog`,
-      `Resume`,
-      `Projects`,
-      `Work`,
-    ],
+    keywords: [`John`, `Mulongo`, `Personal`, `Blog`, `Projects`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: false,
