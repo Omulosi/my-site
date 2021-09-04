@@ -40,7 +40,7 @@ export default ({ data }) => {
           </h1>
           <p>
             <i>
-              {occupation}&nbsp;
+              {occupation}
               {/*dark ? `Imperial enforcer by night` : `Rebel scum by night` */}
             </i>
           </p>
