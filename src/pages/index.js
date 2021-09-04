@@ -5,6 +5,9 @@ import { PageLayout } from "../components"
 import { SEO } from "../utils"
 import { Container, Image } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader"
+
+deckDeckGoHighlightElement()
 
 export default ({ data }) => {
   const { unemployed, firstName, lastName, occupation } = data.site.siteMetadata
@@ -37,8 +40,8 @@ export default ({ data }) => {
           </h1>
           <p>
             <i>
-              {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              {occupation}&nbsp;
+              {/*dark ? `Imperial enforcer by night` : `Rebel scum by night` */}
             </i>
           </p>
         </Container>

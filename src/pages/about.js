@@ -73,10 +73,9 @@ export default ({ data }) => {
               <p className="unemployed">
                 <small>
                   I am <b>currently looking for new opportunities</b>! If you
-                  like what you <Link to="/resume">see</Link>, let's get
-                  in&nbsp;
+                  like what you <Link to="#">see</Link>, let's get in&nbsp;
                   <a
-                    href="mailto:red.five@rebellion.com"
+                    href="mailto:jpmulongo.me@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

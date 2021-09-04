@@ -3,7 +3,7 @@ title: "Managing multiple python versions with pyenv"
 description: ""
 author: "John Paul"
 date: "2018-11-17"
-categories: ["python", "programming"]
+tags: ["python", "programming"]
 ---
 
 **Pyenv** is a super simple utility that makes working with different **python**

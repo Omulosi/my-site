@@ -3,7 +3,7 @@ title: "Customizing CSS in your Jekyll theme"
 description: ""
 author: "John Paul"
 date: "2018-09-25"
-categories: ["jekyll", "css"]
+tags: ["jekyll", "css"]
 ---
 
 Jekyll has an extensive theme system that allows you to customize the look and feel
@@ -19,14 +19,16 @@ theme, a default theme that Jekyll uses if you do not specify one.
   is located in the **sites** folder after you start the engine. To use your own custom styles, create a local **/assets** directory in your site's root and in
   it put your our own version of the `main.scss` file. Then populate it with
   the code below.
-  {% highlight css%}
+
+  ```css
 
   ***
 
   ***
 
   @import "minima";
-  {% endhighlight%}
+  ```
+
   This statement imports the styles already predefined in the theme.
   You have to include the two triple dashes to enable this file to be
   processed by jekyll.

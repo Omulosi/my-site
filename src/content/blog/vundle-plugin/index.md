@@ -3,7 +3,7 @@ title: "Vim: Vundle Plugin Manager"
 description: ""
 author: "John Paul"
 date: "2019-02-13"
-categories: ["vim"]
+tags: ["vim"]
 ---
 
 This article assumes you are a fairly competent vim user. Vim by default is a

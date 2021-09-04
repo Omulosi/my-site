@@ -1,14 +1,15 @@
 ---
-layout: post
 title: "React ContextAPI and the Reducer Pattern"
 description: ""
 author: "John Paul"
 date: "2020-01-06"
-categories: ["react"]
+tags: ["react"]
 ---
 
 Performing logic on data within components becomes more difficult as the amount of data
-increases. Consequently, as components grow and deal with larger sets of data,
+increases.
+
+Consequently, as components grow and deal with larger sets of data,
 the storing and transportation of state across the entire application increasingly
 becomes more and more cumbersome as well.
 
@@ -26,7 +27,7 @@ In React, a reducer function returns new state given the current state
 and some action to perform. It's API is as so:
 
 ```js
-;(state, action) => newState
+const reducer = (state, action) => newState
 ```
 
 The `state` param is the current state that we need to update.

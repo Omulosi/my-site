@@ -3,7 +3,7 @@ title: "Building Web APIs with flask - Part 3: Continuous Integration using Trav
 description: ""
 author: "John Paul"
 date: "2019-03-10"
-categories: ["flask", "python"]
+tags: ["flask", "python"]
 ---
 
 In this part, we are going to cover how to set up Continuous Integration (CI)

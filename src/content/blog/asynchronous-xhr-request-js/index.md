@@ -1,7 +1,7 @@
 ---
 title: "Making Asynchronous JavaScript Requests with XHR"
 date: "2019-09-06"
-categories: ["javascript", "programming"]
+tags: ["javascript", "programming"]
 ---
 
 AJAX stands for **Asynchronous JavaScript and XML**. It was coined ca. 2005 by

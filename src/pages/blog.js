@@ -34,8 +34,8 @@ export default ({ data }) => {
       return (
         post.node.excerpt.toLowerCase().includes(stdQuery) ||
         (description && description.toLowerCase().includes(stdQuery)) ||
-        title.toLowerCase().includes(stdQuery) ||
-        author.toLowerCase().includes(stdQuery) ||
+        (title && title.toLowerCase().includes(stdQuery)) ||
+        (author && author.toLowerCase().includes(stdQuery)) ||
         (tags && tags.join("").toLowerCase().includes(stdQuery))
       )
     })
@@ -56,7 +56,7 @@ export default ({ data }) => {
       <Container className="px-5 mb-5 text-center">
         <Form className="aurebesh blog-filter">
           <FormControl
-            value={query}
+            value={state.query}
             className="bg-none search"
             type="text"
             placeholder="Search"

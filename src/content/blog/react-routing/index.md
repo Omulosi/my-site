@@ -2,7 +2,7 @@
 layout: post
 title: "Fundamentals of React Routing"
 date: "2019-09-17"
-categories: ["react", "javascript"]
+tags: ["react", "javascript"]
 ---
 
 Single page applications have become all the rage nowadays.
@@ -123,7 +123,6 @@ lieu of the anchor tag. This is how it's used.
 
 ```javascript
 import { Link } from "react-router-dom"
-
 ;<Link to="/">Home</Link>
 ```
 

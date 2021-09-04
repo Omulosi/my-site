@@ -3,7 +3,7 @@ title: "Intro to Relational Databases"
 description: ""
 author: "John Paul"
 date: "2018-09-20"
-categories: ["python", "programming"]
+tags: ["python", "programming"]
 ---
 
 # Introduction: Data and Tables

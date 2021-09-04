@@ -3,7 +3,7 @@ title: "Network Programming in Python"
 description: ""
 author: "John Paul"
 date: "2019-02-14"
-categories: ["programming", "python"]
+tags: ["programming", "python"]
 ---
 
 In this post, we are going to expore network programming concepts in python by

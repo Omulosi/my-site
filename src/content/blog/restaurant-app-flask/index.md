@@ -3,7 +3,7 @@ title: "Restaurant Web Application with Flask"
 description: ""
 author: "John Paul"
 date: "2018-10-10"
-categories: ["python", "programming"]
+tags: ["python", "programming"]
 ---
 
 In this project, we are going to build a Restaurant web application. This application will display a list of restaurants and their menus. It will provide functionality for adding, deleting or modifying any given restaurant and/or any one of its menu items.
@@ -314,7 +314,7 @@ Now **Flask** has access to all the configuration variables.
 
 By default, our view functions will only accept `GET` requests. To implement `POST` requests, we have to instruct them explicitly using the `methods` argument in the `@app.route()` decorator. A typical example will be as follows:
 
-{% highlight python linenos %}
+```python
 
 # previous code ...
 
@@ -322,7 +322,7 @@ By default, our view functions will only accept `GET` requests. To implement `PO
 
 # ...
 
-{% endhighlight %}
+```
 
 We will collect data from users using forms. We have already defined the
 structure of our forms using the `flask-wtf` package. To build the forms from
@@ -333,59 +333,56 @@ pretty easy. The form instances know how to render themselves in HTML. Below,
 you can see the new menu item template which is stored in
 app/templates/newMenuItem.html:
 
-{% highlight html %}
-{% raw %}
-<% extends 'base.html' %>
-
-<% block content %>
+```html
+<% extends 'base.html' %> <% block content %>
 
 <section class="container content-box">
-     <div class="row text-center new">
-         <div class="col-md-12 col-lg-12">
-            <h2 class="text-center">Add a new Menu Item</h2>
-            <form action="" method="post" novalidate>
-                {{ form.hidden_tag() }}
-                <div class="form-group">
-                    {{ form.name.label(class_='form-label') }}<br>
-                    {{ form.name(size=32, class_='form-control')}}<br>
-                    {% for error in form.name.errors %}
-                    <span style="color: red">[{{error}}]</span>
-                    {% endfor %}
-                </div>
-                <div class="form-group">
-                    {{ form.price.label(class_='form-label') }}<br>
-                    {{ form.price(size=32, class_='form-control')}}<br>
-                    {% for error in form.name.errors %}
-                    <span style="color: red">[{{error}}]</span>
-                    {% endfor %}
-                </div>
-                <div class="form-group">
-                    {{ form.course.label(class_='form-label') }}<br>
-                    {% for subfield in form.course %}
-                        <tr>
-                            <td>{{ subfield }}</td>
-                            <td>{{ subfield.label }}</td>
-                            &nbsp;&nbsp;
-                        </tr>
-                    {% endfor %}
-                </div>
-                <div class="form-group">
-                    {{ form.description.label(class_='form-label') }}<br>
-                    {{ form.description(cols=32, rows=15, class_='form-control') }}<br>
-                    {% for error in form.description.errors %}
-                    <span style="color: red">[{{error}}]</span>
-                    {% endfor %}
-                </div>
-
-                {{ form.submit(class_='btn btn-modify') }}
-                <a href="{{ url_for('showMenu', restaurant_id=restaurant_id)}}" class="btn btn-modify">Cancel</a>
-            </form>
-
+  <div class="row text-center new">
+    <div class="col-md-12 col-lg-12">
+      <h2 class="text-center">Add a new Menu Item</h2>
+      <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+          {{ form.name.label(class_='form-label') }}<br />
+          {{ form.name(size=32, class_='form-control')}}<br />
+          {% for error in form.name.errors %}
+          <span style="color: red">[{{error}}]</span>
+          {% endfor %}
         </div>
-     </div>
+        <div class="form-group">
+          {{ form.price.label(class_='form-label') }}<br />
+          {{ form.price(size=32, class_='form-control')}}<br />
+          {% for error in form.name.errors %}
+          <span style="color: red">[{{error}}]</span>
+          {% endfor %}
+        </div>
+        <div class="form-group">
+          {{ form.course.label(class_='form-label') }}<br />
+          {% for subfield in form.course %}
+          <tr>
+            <td>{{ subfield }}</td>
+            <td>{{ subfield.label }}</td>
+            &nbsp;&nbsp;
+          </tr>
+          {% endfor %}
+        </div>
+        <div class="form-group">
+          {{ form.description.label(class_='form-label') }}<br />
+          {{ form.description(cols=32, rows=15, class_='form-control') }}<br />
+          {% for error in form.description.errors %}
+          <span style="color: red">[{{error}}]</span>
+          {% endfor %}
+        </div>
 
+        {{ form.submit(class_='btn btn-modify') }}
+        <a
+          href="{{ url_for('showMenu', restaurant_id=restaurant_id)}}"
+          class="btn btn-modify"
+          >Cancel</a
+        >
+      </form>
+    </div>
+  </div>
 </section>
 <% endblock %>
-
-{% endraw %}
-{% endhighlight %}
+```

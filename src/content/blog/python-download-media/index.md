@@ -3,7 +3,7 @@ title: "Downloading Media Files in Python using the requests library"
 description: ""
 author: "John Paul"
 date: "2019-09-22"
-categories: ["python"]
+tags: ["python"]
 ---
 
 In this post, we'll look at ways that you can use to quickly and efficiently
@@ -18,7 +18,7 @@ dowload stuff.
 
 Let's start with an example.
 
-{% highlight python %}
+```python
 
 import requests
 
@@ -50,7 +50,7 @@ if chunk:
 in_file.write(chunk)
 in_file.flush()
 
-{% endhighlight %}
+```
 
 When downloading videos, it's best to set the `stream` flag to `True`. This
 ensures that `requests` streams the content instead of downloading the entire

@@ -12,11 +12,11 @@ module.exports = {
     firstName: `John`,
     lastName: `Mulongo`,
     description: `John Paul's personal site`,
-    occupation: `Software Engineer`,
+    occupation: `Software Developer`,
     keywords: [`John`, `Mulongo`, `Personal`, `Blog`, `Projects`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
-    unemployed: false,
+    unemployed: true,
     designations: [`Coding Monkey`, `Jedi Master`],
     readingList: [
       {
@@ -64,7 +64,21 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-transformer-remark`,
+
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "carbon",
+              theme: "blackboard",
+            },
+          },
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

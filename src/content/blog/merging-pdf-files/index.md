@@ -3,7 +3,7 @@ title: "Managing pdf files in Linux"
 description: ""
 author: "John Paul"
 date: "2019-02-01"
-categories: ["linux"]
+tags: ["linux"]
 ---
 
 Managing `pdf` files is relatively easy in Linux. It does not take too much imagination.

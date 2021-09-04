@@ -3,7 +3,7 @@ title: "Building Web APIs with flask - Part 4: Authentication and Authorization"
 description: ""
 author: "John Paul"
 date: "2019-03-11"
-categories: ["flask", "python"]
+tags: ["flask", "python"]
 ---
 
 The backend of our application is now nicely set up. We have tested that all

@@ -1,10 +1,10 @@
 ---
-company: "Facebook"
-location: "Toronto, ON"
-position: "Full-Stack Developer Intern"
-tags: ["React", "Redux", "Docker", "Datadog"]
-startDate: "2016-05-04"
-endDate: "2016-09-01"
+company: "ONB"
+location: "Nairobi, Kenya"
+position: "Full-Stack Developer"
+tags: ["React", "Redux", "Docker", "Python", "Django"]
+startDate: "2021-01-01"
+endDate: "2021-08-01"
 ---
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget augue commodo, rutrum enim vel, varius lorem. Ut nec sem metus.</p>

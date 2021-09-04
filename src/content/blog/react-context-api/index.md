@@ -3,7 +3,7 @@ title: "React ContextAPI"
 description: ""
 author: "John Paul"
 date: "2020-01-06"
-categories: ["react"]
+tags: ["react"]
 ---
 
 At the end of this post, you should be able to:

@@ -3,7 +3,7 @@ title: "JavaScript functions: Beyond the Basics"
 description: ""
 author: "John Paul"
 date: "2019-09-08"
-categories: ["javascript"]
+tags: ["javascript"]
 ---
 
 Let's talk about functions. Not the easy peasy stuff that you can grasp in a few

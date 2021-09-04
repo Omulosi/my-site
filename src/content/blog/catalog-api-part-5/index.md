@@ -3,7 +3,7 @@ title: "Building Web APIs with flask - Part 5: Blacklist and Token Revoking"
 description: ""
 author: "John Paul"
 date: "2019-03-13"
-categories: ["flask", "python"]
+tags: ["flask", "python"]
 ---
 
 In [Part 4]({{ '/flask/python/2019/03/12/catalog-api-part4.html'| relative_url }})

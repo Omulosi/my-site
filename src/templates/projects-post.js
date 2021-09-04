@@ -21,6 +21,7 @@ export default ({ data }) => {
       subTitle={<SubTitle tags={post.frontmatter.tags} />}
       excerpt={post.excerpt}
       html={post.html}
+      isProject
     />
   )
 }

@@ -1,10 +1,25 @@
 ---
 title: "React Shopper"
-tags: ["Project", "React", "GraphQL"]
-date: "2020-05-13"
-link: https://www.farmfundr.com/
-github: ""
-demo: ""
+tags:
+  [
+    "React",
+    "React Query",
+    "Custom Hooks",
+    "Node",
+    "Express",
+    "Stripe",
+    "Tailwind CSS",
+  ]
+date: "2021-05-13"
+github: "https://github.com/Omulosi/react-shopper"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget augue commodo, rutrum enim vel, varius lorem. Ut nec sem metus. Cras laoreet, metus consectetur mollis consectetur, dui ante tempus ante, eget luctus felis odio sed leo. Sed tempus, ex ultrices porttitor fringilla, enim tellus dictum elit, quis viverra odio orci eu erat. Maecenas auctor ultrices ornare. Mauris consequat a urna in cursus.
+<div style="text-align: center">
+A Shopping Cart App built with React and Node.js. Deployed with Heroku. Includes Stripe
+integration for payment.
+
+<br />
+<a href="https://github.com/Omulosi/react-shopper" target="_blank">Github</a>
+<a href="https://my-shopper-app.herokuapp.com/" target="_blank">Demo</a>
+
+</div>

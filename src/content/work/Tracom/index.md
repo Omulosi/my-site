@@ -1,10 +1,11 @@
 ---
-company: "Google"
-location: "San Francisco, CA"
-position: "Software Engineering Intern"
-tags: ["React.js", "Webpack", "Docker", "Ruby"]
-startDate: "2017-09-04"
-endDate: "2017-12-21"
+company: "Tracom Servidces Limited"
+location: "Nairobi, Kenya"
+position: "Software Engineer"
+tags:
+  ["React.js", "Angular", "Webpack", "Docker", "Java", "Spring-Boot", "JPOS"]
+startDate: "2020-05-01"
+endDate: "2021-01-01"
 ---
 
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget augue commodo, rutrum enim vel, varius lorem. Ut nec sem metus.</p>

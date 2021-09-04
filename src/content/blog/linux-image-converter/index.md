@@ -3,7 +3,7 @@ title: "Converting images from the linux command line"
 description: ""
 author: "John Paul"
 date: "2019-09-28"
-categories: ["linux"]
+tags: ["linux"]
 ---
 
 There are times when you might have need for converting between different

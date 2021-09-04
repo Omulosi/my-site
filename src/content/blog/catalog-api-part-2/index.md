@@ -3,7 +3,7 @@ title: "Building Web APIs with Flask - Part 2"
 description: ""
 author: "John Paul"
 date: "2019-03-08"
-categories: ["flask", "python"]
+tags: ["flask", "python"]
 ---
 
 In [part 1]({{ '/flask/python/2019/03/07/catalog-api-part1.html'| relative_url }})

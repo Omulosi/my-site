@@ -4,7 +4,7 @@ title: "Form Management in React"
 description: ""
 author: "John Paul"
 date: "2019-09-14"
-categories: ["react", "javascript"]
+tags: ["react", "javascript"]
 ---
 
 Forms are the lingua franca of getting external data from users into out

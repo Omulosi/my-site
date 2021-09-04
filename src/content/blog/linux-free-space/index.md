@@ -3,7 +3,7 @@ title: "Freeing up space in your Linux system"
 description: ""
 author: "John Paul"
 date: "2019-09-08"
-categories: ["linux"]
+tags: ["linux"]
 ---
 
 Occasionally, there are times when your disk would get full. This may have some

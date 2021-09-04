@@ -3,7 +3,7 @@ title: "Building Web APIs with Flask - Part 1"
 description: ""
 author: "John Paul"
 date: "2019-03-07"
-categories: ["flask", "python"]
+tags: ["flask", "python"]
 ---
 
 In this project we are going to design a RESTFul API for a _Catalog
@@ -50,14 +50,14 @@ convenient.
 Then create a virtual environment called `venv` and activate it
 (This assumes you already have `python` installed on your system).
 
-```
+```bash
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
 
 Install the flask package.
 
-```
+```bash
 $ pip install flask
 $ pip freeze > requirements.txt
 ```
@@ -79,7 +79,7 @@ main code for our API.
 
 Add and commit your changes to the repository.
 
-```
+```bash
 (venv)$ git add -A
 (venv)$ git commit -m "Initial directory structure"
 ```
@@ -131,7 +131,7 @@ Let's create a new feature branch from where we will set up our database models.
 To install Flask-SQLAlchemy, run the command below. (Ensure your virtual
 environment is activated).
 
-```
+```bash
 (venv)$ pip install flask-sqlalchemy
 ```
 
@@ -220,7 +220,7 @@ as not to signal the application everytime a change is made to the database.
 
 To setup the database, add the following code to the `app/__init__.py` file:
 
-{% highlight python linenos %}
+```python
 
 # app\_\_init\_\_.py
 
@@ -245,7 +245,7 @@ def create_app(config=Config):
 
 from . import models
 
-{% endhighlight %}
+```
 
 This script uses the application factory pattern to create the flask app.
 
@@ -344,7 +344,7 @@ to create one.
 
 Run the following commands to apply the changes to the database.
 
-```
+```bash
 $(venv) flask db init
 $(venv) flask db migrate
 $(venv) flask db
@@ -446,7 +446,7 @@ python interpreter.
 
 Import the database models, db instance and create_app function.
 
-```
+```bash
 >>> from app.models import User, Item
 >>> from app import db, create_app
 ```

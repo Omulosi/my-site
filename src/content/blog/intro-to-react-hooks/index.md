@@ -4,7 +4,7 @@ title: "Introduction to React Hooks"
 description: ""
 author: "John Paul"
 date: "2019-09-13"
-categories: ["react", "javascript"]
+tags: ["react", "javascript"]
 ---
 
 React hooks are a new addition to the React library. They provide a way to add

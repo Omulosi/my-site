@@ -3,7 +3,7 @@ title: "Managing disk partitions in Linux"
 description: ""
 author: "John Paul"
 date: "2019-01-31"
-categories: ["linux"]
+tags: ["linux"]
 ---
 
 The `fdisk` (format disk/fixed disk) command is used to view, create, resize,

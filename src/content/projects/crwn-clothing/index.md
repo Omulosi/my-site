@@ -1,12 +1,24 @@
 ---
-title: "Quick Decks"
-tags: ["Project", "React", "Node"]
-date: "2020-05-13"
-link: https://www.farmfundr.com/
-github: ""
-demo: ""
+title: "Crown Store"
+tags:
+  [
+    "React",
+    "Redux",
+    "Redux-Saga",
+    "Firebase",
+    "Custom Hooks",
+    "Context API",
+    "Stripe",
+  ]
+date: "2021-09-01"
+github: "https://github.com/Omulosi/crwn-clothing"
 ---
 
-An e-commerce online clothing store.
+<div style="text-align:center">
+An e-commerce application built with React, Redux, Hooks, GraphQL, ContextAPI, Stripe.
 
-Tech used: React, Redux, Redux-Saga
+<br />
+<a href="https://github.com/Omulosi/crwn-clothing" target="_blank">Github</a>
+<a href="https://la-elegant-shop.herokuapp.com/" target="_blank">Demo</a>
+
+</div>
